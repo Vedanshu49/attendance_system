@@ -1,0 +1,21 @@
+for start server
+python manage.py runserver
+
+python attendance_app/rfid_reader.py
+
+python manage.py collectstatic
+
+	
+ Home
+ http://127.0.0.1:8000/	 Custom home page (home.html)
+
+ Login Page	
+ http://127.0.0.1:8000/login/	Custom login page (login.html)
+
+ Admin Panel	
+ http://127.0.0.1:8000/admin/	Django admin (accessible only after login)
+
+id pass
+
+vedanshu1
+vedanshu1

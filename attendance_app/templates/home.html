@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RFID and Face Recognition Based Smart Attendance System - Silver Oak University</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="homecss.css">
+</head>
+
+<body class="antialiased">
+
+    <header class="bg-white shadow-sm py-4">
+        <div class="container mx-auto px-6 flex justify-center items-center">
+            <h1 class="text-3xl font-bold text-gray-800 text-center">
+                <span class="text-blue-700">RFID & Face Recognition</span> Attendance System
+            </h1>
+        </div>
+    </header>
+
+    <nav>
+        <!-- Navigation Bar Placeholder
+        <ul class="flex space-x-6">
+            <li><a href="#home" class="text-gray-600 hover:text-blue-700 font-medium transition duration-300">Home</a></li>
+            <li><a href="#about-project" class="text-gray-600 hover:text-blue-700 font-medium transition duration-300">Project</a></li>
+            <li><a href="#features" class="text-gray-600 hover:text-blue-700 font-medium transition duration-300">Features</a></li>
+            <li><a href="#team" class="text-gray-600 hover:text-blue-700 font-medium transition duration-300">Team</a></li>
+            <li><a href="#contact" class="text-gray-600 hover:text-blue-700 font-medium transition duration-300">Contact</a></li>
+            <li><a href="http://127.0.0.1:8000/login/" class="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-md transition duration-300 shadow-md">Login</a></li>
+        </ul>
+        -->
+    </nav>
+
+    <section id="home" class="bg-gradient-to-r from-blue-700 to-indigo-600 text-white py-20 px-6 text-center">
+        <div class="container mx-auto">
+            <h1 class="text-5xl font-extrabold mb-4 leading-tight">
+                Revolutionizing Campus Attendance
+            </h1>
+            <p class="text-xl opacity-90 mb-8 max-w-2xl mx-auto">
+                Smart, Seamless, Secure: Your Next-Generation RFID & Face Recognition Attendance Solution.
+            </p>
+            <!-- <a href="#about-project" class="bg-white text-blue-700 hover:bg-gray-100 py-3 px-8 rounded-full text-lg font-semibold shadow-lg transition duration-300">Discover More</a> -->
+        </div>
+    </section>
+
+    <section id="about-project" class="py-16 px-6 bg-white">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-4xl section-heading mb-8 text-center">About Our Project</h2>
+            <div class="text-lg text-gray-700 leading-relaxed text-justify">
+                <p class="mb-4">
+                    The <b>RFID and Face Recognition Based Smart Attendance System</b> is a cutting-edge project
+                    developed by the students of Diploma Computer Engineering at <b>Silver Oak University</b>. Our
+                    primary goal is to streamline and secure attendance tracking processes using advanced technologies.
+                </p>
+                <p class="mb-4">
+                    In traditional attendance systems, manual processes often lead to errors, delays, and even
+                    fraudulent entries. Our smart solution combines RFID scanning with facial recognition to
+                    automatically verify and log attendance, ensuring accuracy and security. Once a student taps their
+                    RFID tag, a live camera feed is triggered for facial authentication using OpenCV.
+                </p>
+                <p class="mb-4">
+                    A successful match marks the student’s attendance in a centralized <b>SQLite database</b>. Our
+                    Django-based admin dashboard—enhanced with modern UI elements and Excel export
+                    capabilities—enables staff to generate daily, subject-wise, or complete attendance reports with
+                    ease.
+                </p>
+                <p>
+                    This comprehensive desktop application, compiled as an executable (.exe) file, launches both the
+                    backend and face recognition modules concurrently for real-time monitoring. It reflects a
+                    significant advancement in educational technology, integrating <b>RFID</b> and <b>facial
+                        recognition</b>
+                    to offer a reliable, transparent, and scalable attendance solution.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 px-6 bg-gray-50">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-4xl section-heading mb-8 text-center">Project Aim</h2>
+            <p class="text-lg text-gray-700 text-justify">
+                To design and implement an automated attendance system that ensures accurate, real-time logging of
+                student attendance using a combination of RFID scanning and facial recognition, while offering a
+                user-friendly Django-based web interface for administration, tracking, and reporting.
+            </p>
+        </div>
+    </section>
+
+    <section class="py-16 px-6 bg-white">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-4xl section-heading mb-8 text-center">Theme</h2>
+            <p class="text-lg text-gray-700 text-justify">
+                The project’s central theme is hybrid automation and biometric security. By integrating RFID technology
+                with facial recognition, the system reflects the evolution toward smarter, more secure digital campuses.
+                The UI follows a modern dark-mode aesthetic, equipped with real-time logs and exportable administrative
+                controls, aligning with the vision of data-driven educational institutions.
+            </p>
+        </div>
+    </section>
+
+    <section id="features" class="py-16 px-6 bg-gray-50">
+        <div class="container mx-auto max-w-5xl">
+            <h2 class="text-4xl section-heading mb-12 text-center">Key Features</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-lg shadow-lg text-center">
+                    <h3 class="text-2xl font-semibold mb-3 text-gray-800">Automated Tracking</h3>
+                    <p class="text-gray-600">Instant and effortless attendance recording via RFID card or tag scans
+                        combined with facial recognition verification.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-lg text-center">
+                    <h3 class="text-2xl font-semibold mb-3 text-gray-800">Real-time Data</h3>
+                    <p class="text-gray-600">Access up-to-the-minute attendance records through the Django dashboard.
+                    </p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-lg text-center">
+                    <h3 class="text-2xl font-semibold mb-3 text-gray-800">Accuracy & Reliability</h3>
+                    <p class="text-gray-600">Combines RFID and facial biometrics for secure, foolproof data logging.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-lg text-center">
+                    <h3 class="text-2xl font-semibold mb-3 text-gray-800">User-Friendly Interface</h3>
+                    <p class="text-gray-600">Modern Django interface with dark mode support for intuitive navigation and
+                        control.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-lg text-center">
+                    <h3 class="text-2xl font-semibold mb-3 text-gray-800">Comprehensive Reporting</h3>
+                    <p class="text-gray-600">Export attendance reports in Excel format daily, subject-wise, or full
+                        logs.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-lg text-center">
+                    <h3 class="text-2xl font-semibold mb-3 text-gray-800">Scalability</h3>
+                    <p class="text-gray-600">Built to support institutions of any size, with future-ready design.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="py-16 px-6 bg-gray-100">
+        <div class="container mx-auto max-w-4xl text-center">
+            <h2 class="text-4xl section-heading mb-12 mx-auto">Our Dedicated Team</h2>
+            <p class="text-lg text-gray-700 mb-10">
+                This project is the outcome of collaborative efforts by a team of students from the Diploma in Computer
+                Engineering program at Silver Oak University.
+            </p>
+
+            <!-- V E D A N S H U -->
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md flex flex-col items-center">
+                    {% load static %}
+                    <img src="{% static 'images/Vedanshu.jpg' %}" alt="Vedanshu Pandey"
+                        class="rounded-full w-34 h-34 object-cover mb-4 border-2 border-blue-800">
+                    <h3 class="text-xl font-semibold text-gray-800">Vedanshu Pandey</h3>
+                    <p class="text-gray-600">ERNO - 2302020400435</p>
+                    <p class="text-blue-600">Project Lead</p>
+                </div>
+
+                <!-- M E H A K -->
+
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md flex flex-col items-center">
+                    <img src="{% static 'images/me.jpg' %}" alt="Mahek Gohel"
+                        class="rounded-full w-34 h-34 object-cover mb-4 border-2 border-blue-600">
+                    <h3 class="text-xl font-semibold text-gray-800">Mahek Gohel</h3>
+                    <p class="text-gray-600">ERNO - 2302020400469</p>
+                </div>
+
+                <!-- S M I T -->
+
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md flex flex-col items-center">
+                    <img src="{% static 'images/s.jpg' %}" alt="Smit Upadhyay"
+                        class="rounded-full w-34 h-34 object-cover mb-4 border-2 border-blue-600">
+                    <h3 class="text-xl font-semibold text-gray-800">Smit Upadhyay</h3>
+                    <p class="text-gray-600">ERNO - 2302020400520</p>
+                </div>
+
+                <!-- Y U G -->
+                <CENTER></CENTER>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md flex flex-col items-center">
+                    <img src="{% static 'images/y.jpg' %}" alt="Yug Badal Shah"
+                        class="rounded-full w-34 h-34 object-cover mb-4 border-2 border-blue-600">
+                    <h3 class="text-xl font-semibold text-gray-800">Yug Badal Shah</h3>
+                    <p class="text-gray-600">ERNO - 2302020400448</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-gradient-to-r from-blue-600 to-indigo-500 text-white py-16 px-6 text-center">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold mb-4">Ready to Experience Seamless Attendance?</h2>
+            <p class="text-xl opacity-90 mb-8">
+                Faculty and administrators can log in to manage attendance records.
+            </p>
+            <a href="http://127.0.0.1:8000/login/"
+                class="bg-white text-blue-700 hover:bg-gray-100 py-3 px-10 rounded-full text-lg font-semibold shadow-lg transition duration-300">
+                Go to Login Page
+            </a>
+        </div>
+    </section>
+
+    <!--
+    <footer class="bg-gray-800 text-gray-300 py-8 px-6">
+        <div class="container mx-auto text-center">
+            <p class="mb-2">&copy; 2023 RFID Attendance System. All rights reserved.</p>
+            <p class="text-sm">Developed by Diploma Computer Engineering Students of <span class="font-semibold">Silver Oak University</span>.</p>
+            <div class="mt-4 text-sm">
+                <a href="#" class="hover:text-white mx-2">Privacy Policy</a> |
+                <a href="#" class="hover:text-white mx-2">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+    -->
+
+</body>
+
+</html>

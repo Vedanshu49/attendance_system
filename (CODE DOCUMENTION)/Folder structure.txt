@@ -1,0 +1,54 @@
+pbl project/
+│
+├── manage.py
+├── db.sqlite3
+├── attendance_scanner.spec
+├── server creditals.txt
+│
+├── (CODE DOCUMENTION)/
+│   ├── Folder structure.txt
+│   ├── gpt keyword for continue.txt
+│   ├── installation_guide for packages.txt
+│   └── requirements.txt
+│
+├── attendance_app/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── attendance_logger.py
+│   ├── face_recognition_script.py
+│   ├── models.py
+│   ├── rfid_reader.py
+│   ├── views.py
+│   │
+│   ├── middleware/
+│   │   └── ForceLogoutMiddleware.py
+│   │
+│   ├── migrations/
+│   │   ├── __init__.py
+│   │   └── 0001_initial.py
+│   │
+│   ├── static/
+│   │   └── sounds/
+│   │       ├── duplicate.wav
+│   │       └── success.wav
+│   │
+│   └── templates/
+│       ├── home.html
+│       ├── homecss.css
+│       ├── login.html
+│       └── logincss.css
+│
+├── media/
+│   └── face_images/
+│       ├── sample_face.jpg
+│       ├── web_dev.pdf_20250418_125712_0000.png
+│       └── WhatsApp_Image_2025-05-10_at_00.58.30_815ef6ac.jpg
+│
+├── rfid_web/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+│
+└── static/

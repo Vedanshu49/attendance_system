@@ -1,0 +1,24 @@
+# Recommended Python version for using this project: 3.10
+
+#run pip install -r requirements.txt in cmd to install all files
+
+# Core packages for the web framework
+django
+
+# Computer vision and face recognition
+opencv-python
+face-recognition
+
+# Text-to-speech and audio feedback
+pyttsx3
+playsound
+
+# Data processing and Excel handling
+pandas
+openpyxl
+
+# Serial communication for RFID hardware
+pyserial
+
+
+opencv-contrib-python
