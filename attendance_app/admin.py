@@ -19,9 +19,9 @@ class AttendeeAdmin(admin.ModelAdmin):
 @admin.register(AttendanceRecord)
 class AttendanceRecordAdmin(admin.ModelAdmin):
     list_display = ('name', 'uid', 'subject', 'timestamp')
-    list_filter = ('subject', 'timestamp')  # ✅ Subject-wise + Date grouping
+    list_filter = ('subject', 'timestamp')  #  Subject-wise + Date grouping
     search_fields = ('name', 'uid', 'subject')
-    actions = ['export_as_csv']  # ✅ Export feature
+    actions = ['export_as_csv']  #  Export feature
 
     @admin.action(description='Export selected attendance as CSV')
     def export_as_csv(self, request, queryset):

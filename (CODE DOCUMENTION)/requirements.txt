@@ -20,5 +20,6 @@ openpyxl
 # Serial communication for RFID hardware
 pyserial
 
+playsound==1.2.2
 
 opencv-contrib-python
