@@ -125,6 +125,11 @@ cython_debug/
 
 # Sensitive files
 (CODE DOCUMENTION)/server creditals.txt
+attendance_app\static\images\M.jpg
+attendance_app\static\images\me.jpg
+attendance_app\static\images\S.jpg
+attendance_app\static\images\Vedanshu.jpg
+attendance_app\static\images\y.jpg
 
 ((AAIGNORE))
 (CODE DOCUMENTION)
