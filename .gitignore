@@ -126,9 +126,8 @@ cython_debug/
 # Sensitive files
 (CODE DOCUMENTION)/server creditals.txt
 
-# Documentation files
-*.pdf
-*.docx
+((AAIGNORE))
+(CODE DOCUMENTION)
 
 # Other
 c/
